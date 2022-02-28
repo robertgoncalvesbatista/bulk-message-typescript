@@ -1,7 +1,7 @@
 import fs from "fs";
 import csvParser from "csv-parser";
 
-const filepath = "./list.csv";
+const filepath = "./src/temp/list.csv";
 
 export default class csvService {
     load() {
